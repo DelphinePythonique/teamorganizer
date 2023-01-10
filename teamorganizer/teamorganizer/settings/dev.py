@@ -1,3 +1,5 @@
+from urllib.parse import urlparse
+
 from .base import *  # noqa type:ignore
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -5,6 +7,7 @@ SECRET_KEY = 'django-insecure-o7%k=z)w$5n^!ejzdv-d9!-q)#15m%%(ir_e+bj1-#vy=d9%jf
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
 
 ALLOWED_HOSTS = [
   "127.0.0.1",
